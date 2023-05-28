@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit&family=Poppins:wght@200;300&family=Rajdhani&family=Wix+Madefor+Text&display=swap');
+
+*{
+    font-family: poppins;
+    text-decoration: none;
+}
+.nav-item a:hover{opacity: .7;border-bottom: 2px solid #fff;}
+.container11{
+    height: 750px;
+    width: 100%;display: flex;
+    background-color: rgb(0, 0, 0);
+}
+.head-line{
+    height: 500px;
+    width: 40%;
+    margin: 100px 10px;
+    
+}
+.head-line h5{
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 100% 100% 0% 0%;
+}
+.head-line h1{
+    font-size: 95px;
+    color: #fff;
+}
+.head-line a{
+    padding: 10px;
+    background-color: red;
+    font-size: 18px;color: #fff;
+    text-decoration: none;
+    margin: 40px 20px;
+}
+.head-line a:hover{opacity: 0.9;}
+.burger-display{
+    height: 500px;
+    width: 60%;
+    margin: 100px 20px;
+}
+.burger-display img{
+    height: 500px;width: 100%;
+}
+
+/*============================================About section=====================================================*/
+
+.about-shop{
+    height: 750px;
+    width: 100%;display: flex;
+    font-family: poppins;
+}
+.burger{
+    height: 640px;
+    width: 50%;
+    margin: 50px 2px;
+}
+.burger-abt{
+    height: 640px;
+    width: 40%;
+    margin: 50px 20px;
+}
+.burger-abt h1{
+    padding: 40px 30px;
+    
+}
+.burger-abt a{
+    padding: 10px 30px;
+    background-color: red;
+    font-size: 18px;color: #fff;
+    text-decoration: none;
+    float: right;
+    margin: 10px 40px;
+}
+
+/*==========================================================offer section=========================================*/
+
+.offer-display{
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+.off-item{
+    height: 460px;
+    width: 30%;
+    background-color: red;
+    margin: 20px;
+}
+.off-item a:hover{
+    opacity: 0.8;
+}
+
+/*=============================================================new items==========================================*/
+.contain h1{
+    text-align: center;
+    padding: 50px;;
+}
+.box-container{
+    display: grid;margin-bottom: 60px;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 55px;padding: 10px 50px;
+}
+.item-box{
+    margin-top: 20px;
+}
+.item-box h4{
+    margin-top: 40px;
+    font-weight: 900;
+}
+.item-box a{
+    padding: 8px 25px;
+    background-color: red;
+    text-decoration: none;
+    color: #fff;
+}
+.item-box span{
+    color: red;
+    font-weight:900;
+}
+.view-opt{
+    height: 470px;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+}
+.quotes-line{
+    height: 400px;
+    width: 50%;
+    background-color: #000;
+    margin: 30px 0px;
+}
+/*====================================foooooter=======================================*/
+footer{
+    height: 350PX;
+    width: 100%;
+    background-color:#000;
+    display: flex;
+}
+.foot-div{
+    height: 300px;
+    width: 25%;
+    margin: 20px;
+    background-color: #000;
+}
+.foot-div a li{
+    margin: 5px 40px;
+}
+.foot-div h3{
+    margin: 10px 20px;
+    color: #fff;
+}
+.foot-div a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=Media Query=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+
+@media screen and (max-width:600px){
+    .container11{
+        display: block;
+    }
+    .head-line{
+        width: 100%;
+        margin-top: 55px;
+    }
+    .burger-display{
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        margin: 0px;margin-top: -60px;
+    }
+    .head-line h5{
+        display: none;
+    }
+    .about-shop{
+        display: block;
+    }
+    .burger{
+        width: 100%;
+        margin-top: 250px;
+    }
+    .burger-abt{
+        width: 100%;
+        margin: 0px;
+    }
+    .burger-abt p{
+        padding:20px;
+        text-align: justify;
+    }
+    .offer-display{
+        display: none;
+    }
+    .contain{
+        margin-top: 600px;
+    }
+    .contain h1{
+        font-size: 55px;
+    }
+    .view-opt{
+        display: block;
+    }
+    .quotes-line{
+        width: 100%;
+        text-align: justify;
+    }
+    footer{
+        display: block;
+    }
+    .foot-div{
+        width: 100%;
+        margin: 0px;
+    }
+    .foot-div p{
+        text-align: center;
+    }
+    .foot-div img{
+        width: 100%;
+        height: 320px;
+    }
+    .foot-div h3{
+        margin: 0;
+    }
+
+
+
+}
